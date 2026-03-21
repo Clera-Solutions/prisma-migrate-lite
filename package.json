@@ -1,6 +1,6 @@
 {
   "name": "@clera-solutions/prisma-migrate-lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight Prisma migrate deploy without the full CLI",
   "type": "module",
   "bin": {
