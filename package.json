@@ -1,0 +1,28 @@
+{
+  "name": "@clera-solutions/prisma-migrate-lite",
+  "version": "1.0.0",
+  "description": "Lightweight Prisma migrate deploy without the full CLI",
+  "type": "module",
+  "bin": {
+    "prisma-migrate-lite": "./migrate.mjs"
+  },
+  "scripts": {
+    "migrate": "node migrate.mjs"
+  },
+  "files": [
+    "migrate.mjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/prisma-migrate-lite.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "dependencies": {
+    "@prisma/migrate": "7.5.0",
+    "@prisma/internals": "7.5.0",
+    "@prisma/engines": "7.5.0"
+  }
+}
