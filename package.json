@@ -20,7 +20,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@prisma/migrate": "7.5.0",
+    "@prisma/migrate": "7.10.1",
     "@prisma/internals": "7.5.0",
     "@prisma/engines": "7.5.0"
   }
